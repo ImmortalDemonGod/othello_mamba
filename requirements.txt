@@ -3,5 +3,4 @@ wandb
 numpy
 dataclasses
 typing
-#2b06e99af167044b281668f6edd388c633aba1a0
 mamba-ssm
