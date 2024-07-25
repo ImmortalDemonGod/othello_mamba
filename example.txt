@@ -3,3 +3,4 @@
 pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
 
 #2b06e99af167044b281668f6edd388c633aba1a0
+python3 -m venv mamaba

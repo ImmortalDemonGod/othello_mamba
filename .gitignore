@@ -9,3 +9,4 @@ data/
 **/*.tar.xz
 **/*.npy
 **/*.json
+mamaba/
