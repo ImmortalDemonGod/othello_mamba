@@ -6,3 +6,14 @@ pip3 install torch torchvision torchaudio --index-url https://download.pytorch.o
 python3 -m venv mamaba
 pip install mamba-ssm
 source mamaba/bin/activate
+pip install mamba-ssm --no-build-isolation
+pip install packaging torch
+
+git clone https://github.com/state-spaces/mamba.git
+cd mamba
+pip install -e .
+pip install --upgrade pip setuptools
+pip install torch>=1.12.0
+cd mamba
+pip install -e . --no-build-isolation
+nvcc --version
